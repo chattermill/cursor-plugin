@@ -1,0 +1,6 @@
+{
+  "chattermill": {
+    "url": "https://mcp.chattermill.com/mcp",
+    "transport": "http"
+  }
+}

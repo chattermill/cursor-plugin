@@ -1,0 +1,22 @@
+{
+  "name": "chattermill",
+  "version": "1.0.0",
+  "description": "Cursor Plugin for Chattermill - enables AI assistants to analyze customer feedback, explore themes, track metrics, and surface insights across your Chattermill workspace",
+  "author": {
+    "name": "Chattermill",
+    "email": "support@chattermill.com",
+    "url": "https://chattermill.com"
+  },
+  "keywords": [
+    "chattermill",
+    "mcp",
+    "customer-feedback",
+    "voice-of-customer",
+    "analytics",
+    "nps",
+    "csat",
+    "sentiment"
+  ],
+  "logo": "logo.svg",
+  "primaryColor": "#10C2ED"
+}
