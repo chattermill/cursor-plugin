@@ -1,5 +1,5 @@
 {
-  "name": "chattermill-plugins",
+  "name": "chattermill",
   "interface": {
     "displayName": "Chattermill"
   },

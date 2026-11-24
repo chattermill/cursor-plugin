@@ -1,5 +1,7 @@
 # Chattermill plugin for AI agents
 
+> **This repo has moved to [chattermill/agent-plugins](https://github.com/chattermill/agent-plugins).** It's kept in step until the Cursor marketplace listing points at the new repo, then it'll be archived. Use the new repo for installs and changes.
+
 This plugin connects your AI agent to your Chattermill workspace. One install gives the agent two things:
 
 - **The Chattermill MCP server** at `https://app.chattermill.com/mcp`. It has tools for feedback, themes, observations, metrics, NPS drivers and dashboards. You sign in with your Chattermill account, and the agent sees only the projects your account can see.
@@ -12,15 +14,15 @@ The same repo installs in Claude Code, Claude desktop and Cowork, Cursor, Codex,
 ### Claude Code
 
 ```
-/plugin marketplace add chattermill/cursor-plugin
-/plugin install chattermill@chattermill-plugins
+/plugin marketplace add chattermill/agent-plugins
+/plugin install chattermill@chattermill
 ```
 
 Then run `/mcp`, pick `plugin:chattermill:chattermill` and sign in.
 
 ### Claude desktop and Cowork
 
-Add `chattermill/cursor-plugin` as a plugin marketplace in settings, then install `chattermill`.
+Add `chattermill/agent-plugins` as a plugin marketplace in settings, then install `chattermill`.
 
 ### Cursor
 
@@ -29,21 +31,21 @@ Open Settings, go to Plugins, search for Chattermill and click Install.
 ### Codex
 
 ```bash
-codex plugin marketplace add chattermill/cursor-plugin
-codex plugin add chattermill@chattermill-plugins
+codex plugin marketplace add chattermill/agent-plugins
+codex plugin add chattermill@chattermill
 ```
 
 ### GitHub Copilot CLI
 
 ```bash
-copilot plugin marketplace add chattermill/cursor-plugin
-copilot plugin install chattermill@chattermill-plugins
+copilot plugin marketplace add chattermill/agent-plugins
+copilot plugin install chattermill@chattermill
 ```
 
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/chattermill/cursor-plugin
+gemini extensions install https://github.com/chattermill/agent-plugins
 ```
 
 ### Any other agent
@@ -51,7 +53,7 @@ gemini extensions install https://github.com/chattermill/cursor-plugin
 For the skill alone, in any agent that reads Agent Skills:
 
 ```bash
-npx skills add chattermill/cursor-plugin
+npx skills add chattermill/agent-plugins
 ```
 
 Then add the MCP server through your client's own MCP settings, using the URL `https://app.chattermill.com/mcp` and HTTP transport. The server handles sign-in with OAuth.

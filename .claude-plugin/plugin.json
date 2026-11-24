@@ -8,7 +8,8 @@
     "url": "https://chattermill.com"
   },
   "homepage": "https://chattermill.com",
-  "repository": "https://github.com/chattermill/cursor-plugin",
+  "repository": "https://github.com/chattermill/agent-plugins",
+  "license": "MIT",
   "keywords": [
     "chattermill",
     "mcp",
