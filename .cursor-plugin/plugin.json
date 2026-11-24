@@ -1,12 +1,14 @@
 {
   "name": "chattermill",
-  "version": "1.0.0",
-  "description": "Cursor Plugin for Chattermill - enables AI assistants to analyze customer feedback, explore themes, track metrics, and surface insights across your Chattermill workspace",
+  "version": "1.1.0",
+  "description": "Connect your AI agent to Chattermill customer feedback. Includes the Chattermill MCP server (sign in with your Chattermill account) and the chattermill-best-practices skill, which covers discovery, filters and deep links back into the app.",
   "author": {
     "name": "Chattermill",
     "email": "support@chattermill.com",
     "url": "https://chattermill.com"
   },
+  "homepage": "https://chattermill.com",
+  "repository": "https://github.com/chattermill/cursor-plugin",
   "keywords": [
     "chattermill",
     "mcp",
@@ -17,6 +19,6 @@
     "csat",
     "sentiment"
   ],
-  "logo": "logo.svg",
+  "logo": "assets/logo.svg",
   "primaryColor": "#10C2ED"
 }

@@ -1,6 +1,9 @@
 {
-  "chattermill": {
-    "url": "https://mcp.chattermill.com/mcp",
-    "transport": "http"
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "chattermill": {
+      "type": "streamable-http",
+      "url": "https://app.chattermill.com/mcp"
+    }
   }
 }

@@ -1,0 +1,17 @@
+{
+  "name": "chattermill-plugins",
+  "description": "Chattermill plugin for AI agents",
+  "owner": {
+    "name": "Chattermill",
+    "email": "support@chattermill.com",
+    "url": "https://chattermill.com"
+  },
+  "plugins": [
+    {
+      "name": "chattermill",
+      "source": "./",
+      "description": "Chattermill MCP server plus the chattermill-best-practices skill",
+      "category": "data"
+    }
+  ]
+}
