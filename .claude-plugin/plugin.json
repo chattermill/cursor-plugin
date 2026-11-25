@@ -20,5 +20,7 @@
     "csat",
     "sentiment"
   ],
-  "privacyPolicyUrl": "https://chattermill.com/legal/privacy-cookie-policy"
+  "privacyPolicyUrl": "https://chattermill.com/legal/privacy-cookie-policy",
+  "termsOfServiceUrl": "https://chattermill.com/legal",
+  "documentationUrl": "https://docs.chattermill.com/en/articles/13943134-chattermill-mcp-server"
 }

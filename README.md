@@ -97,4 +97,4 @@ git commit -am "Update chattermill-best-practices" && git push
 
 ## Support
 
-Email [support@chattermill.com](mailto:support@chattermill.com) or see [help.chattermill.com](https://help.chattermill.com).
+Email [support@chattermill.com](mailto:support@chattermill.com), or read [Chattermill MCP server](https://docs.chattermill.com/en/articles/13943134-chattermill-mcp-server) in the Chattermill docs. Terms and privacy policy: [chattermill.com/legal](https://chattermill.com/legal).

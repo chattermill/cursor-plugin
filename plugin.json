@@ -30,6 +30,7 @@
         "developerName": "Chattermill",
         "websiteURL": "https://chattermill.com",
         "privacyPolicyURL": "https://chattermill.com/legal/privacy-cookie-policy",
+        "termsOfServiceURL": "https://chattermill.com/legal",
         "brandColor": "#10C2ED"
       }
     }
