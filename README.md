@@ -62,8 +62,7 @@ Then add the MCP server through your client's own MCP settings, using the URL `h
 
 If your workspace is on the US instance, the server URL is `https://app-us.chattermill.com/mcp`.
 
-- **Claude Code:** set `CHATTERMILL_MCP_URL=https://app-us.chattermill.com/mcp` in your environment before you start Claude.
-- **Other agents:** the plugin connects to the EU/global URL. Add the US URL as a manual MCP server instead.
+The plugin connects to the EU/global URL. Add the US URL as a manual MCP server in your agent's settings instead of installing the plugin's server, and install the skill on its own with `npx skills add chattermill/agent-plugins`.
 
 ## Example prompts
 

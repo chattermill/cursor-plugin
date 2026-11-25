@@ -2,7 +2,7 @@
   "mcpServers": {
     "chattermill": {
       "type": "http",
-      "url": "${CHATTERMILL_MCP_URL:-https://app.chattermill.com/mcp}"
+      "url": "https://app.chattermill.com/mcp"
     }
   }
 }
